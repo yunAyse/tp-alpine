@@ -1,6 +1,6 @@
 import React from 'react'
 
-import alpineLogo from '../Assets/images/sources-homepage/logo/logo-white.png';
+import alpineLogo from '../../Assets/images/sources-homepage/logo/logo-white.png';
 
 const Footer = () => {
   return (

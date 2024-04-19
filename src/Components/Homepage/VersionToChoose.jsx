@@ -1,18 +1,19 @@
 import { BiRightArrowAlt } from "react-icons/bi"; 
 import React from 'react'
 
-import carLegend from '../Assets/images/sources-homepage/versions/ALPINE-LEGENDE-1.png';
-import carPure from '../Assets/images/sources-homepage/versions/ALPINE-PURE-1.png';
+import carLegend from '../../Assets/images/sources-homepage/versions/ALPINE-LEGENDE-1.png';
+import carPure from '../../Assets/images/sources-homepage/versions/ALPINE-PURE-1.png';
 
 const Configurator = () => {
   return (
-   <section id='configurator' className='container py-12'>
+   <section id='configurator' className='container py-[100px]'>
     <div className='flex flex-col gap-[80px]'>
 
     <h2 className='font-bold text-4xl text-center'>
-     Configurer le Modèle de Votre Choix
+     Configurer la Version de Votre Choix
     </h2>
 
+    {/* Static Pour l'instant, la prochaine page commencera a partir du model choisis. */}
     <div className='flex justify-center gap-16'>
         <div className='w-[400px] flex flex-col gap-14 justify-center border-2 border-transparent rounded shadow-2xl py-3 px-6 '>
             <div className='flex justify-center'>
@@ -25,8 +26,8 @@ const Configurator = () => {
             </div>
 
             <div className='flex justify-center items-center gap-2 text-sky-600 '>
-                <a href="">Configurer</a>
-                <a href=""> <BiRightArrowAlt /> </a>
+                <a href="../Configurator/Configure.jsx">Configurer</a>
+                <a href="../Configurator/Configure.jsx"> <BiRightArrowAlt /> </a>
             </div>
         </div>
 
@@ -42,8 +43,8 @@ const Configurator = () => {
             </div>
 
             <div className='flex justify-center items-center gap-2 text-sky-600 '>
-                <a href="">Configurer</a>
-                <a href=""> <BiRightArrowAlt /> </a>
+                <a href="../Configurator/Configure.jsx">Configurer</a>
+                <a href="../Configurator/Configure.jsx"> <BiRightArrowAlt /> </a>
             </div>
         </div>
     </div>

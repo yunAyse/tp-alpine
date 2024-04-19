@@ -1,7 +1,7 @@
 import React from "react";
 
-import a110Model from '../Assets/images/sources-homepage/A110/Alpine-A110-1.jpg'
-import a110ModelCollage from '../Assets/images/sources-homepage/A110/Presentation_desktop-1.png';
+import a110Model from '../../Assets/images/sources-homepage/A110/Alpine-A110-1.jpg'
+import a110ModelCollage from '../../Assets/images/sources-homepage/A110/Presentation_desktop-1.png';
 
 const Model = () => {
   return (

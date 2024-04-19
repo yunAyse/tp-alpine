@@ -1,21 +1,21 @@
 import React from "react";
 
 // dimensions
-import dimensions from "../Assets/images/sources-homepage/caractéristiques/dimensions-tech.png";
+import dimensions from "../../Assets/images/sources-homepage/caractéristiques/dimensions-tech.png";
 
 // design
-import design1 from "../Assets/images/sources-homepage/design/duo-left.jpg";
-import design2 from "../Assets/images/sources-homepage/design/duo-right.jpg";
-import design3 from "../Assets/images/sources-homepage/design/Moteur_desktop.png";
+import design1 from "../../Assets/images/sources-homepage/design/duo-left.jpg";
+import design2 from "../../Assets/images/sources-homepage/design/duo-right.jpg";
+import design3 from "../../Assets/images/sources-homepage/design/Moteur_desktop.png";
 
 // interieur
-import interieur1 from "../Assets/images/sources-homepage/interieur/interieur_desktop.png";
+import interieur1 from "../../Assets/images/sources-homepage/interieur/interieur_desktop.png";
 
 // motorisation
-import moteurvideo from "../Assets/video/MOTEUR_CINEMAGRAPH-.mp4";
+import moteurvideo from "../../Assets/video/MOTEUR_CINEMAGRAPH-.mp4";
 
 // technologie
-import technovideo from "../Assets/video/Center-of-gravity-FR_LOW.mp4";
+import technovideo from "../../Assets/video/Center-of-gravity-FR_LOW.mp4";
 
 const Technical = () => {
   return (

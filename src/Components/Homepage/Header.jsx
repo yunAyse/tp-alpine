@@ -1,8 +1,8 @@
 import { BiCart } from "react-icons/bi"; 
 import React, { useState } from 'react';
 
-import alpineLogo from '../Assets/images/sources-homepage/logo/logo-white.png';
-import alpineLogoBlue from '../Assets/images/sources-homepage/logo/logo.png';
+import alpineLogo from '../../Assets/images/sources-homepage/logo/logo-white.png';
+import alpineLogoBlue from '../../Assets/images/sources-homepage/logo/logo.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-slate-900">
+    <header className="bg-slate-900 fixed z-30 w-full ">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
           <a href="/src/App.jsx" className="-m-1.5 p-1.5">
@@ -32,7 +32,6 @@ const Header = () => {
           <a href="#model" className="text-sm font-bold leading-6 text-slate-200">Modèle</a>
           <a href="#technical" className="text-sm font-bold leading-6 text-slate-200">Caractéristique</a>
           <a href="#configurator" className="text-sm font-bold leading-6 text-slate-200">Configuration</a>
-          <a href="#boutique" className="text-sm font-bold leading-6 text-slate-200">Boutique</a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="Cart" className="text-sm font-semibold leading-6 text-slate-200"> <BiCart size={26}/></a>
@@ -61,7 +60,6 @@ const Header = () => {
                   <a href="#model" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Modèle</a>
                   <a href="#technical" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Caractéristique</a>
                   <a href="#configurator" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Configuration</a>
-                  <a href="#boutique" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Boutique</a>
                 </div>
               </div>
             </div>

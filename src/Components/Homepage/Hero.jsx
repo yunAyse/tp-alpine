@@ -2,9 +2,9 @@ import React, { useState, useEffect } from "react";
 
 import { BsChevronLeft, BsChevronRight } from "react-icons/bs";
 
-import galerieCar1 from "../Assets/images/sources-homepage/galerie/A110_PURE_4.jpg";
-import galerieCar2 from "../Assets/images/sources-homepage/galerie/A110_PURE_6.jpg";
-import galerieCar3 from "../Assets/images/sources-homepage/galerie/A110_PURE_8.jpg";
+import galerieCar1 from "../../Assets/images/sources-homepage/galerie/A110_PURE_4.jpg";
+import galerieCar2 from "../../Assets/images/sources-homepage/galerie/A110_PURE_6.jpg";
+import galerieCar3 from "../../Assets/images/sources-homepage/galerie/A110_PURE_8.jpg";
 
 const Hero = () => {
   const slides = [
@@ -44,8 +44,8 @@ const Hero = () => {
   }, [currentIndex]);
 
   return (
-    <section data-carousel="slide" id="default-carousel">
-      <div className="max-w-[1440px] h-[660px] w-full m-auto py-6 px-3 relative group">
+    <section data-carousel="slide" id="default-carousel" className="py-16">
+      <div className="max-w-[1440px] h-[680px] w-full m-auto py-6 px-3 relative group">
         <div
           style={{
             backgroundImage: `url(${slides[currentIndex].src})`,
