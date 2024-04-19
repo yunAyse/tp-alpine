@@ -1,5 +1,5 @@
+import { BiCart } from "react-icons/bi"; 
 import React, { useState } from 'react';
-import { BsChevronLeft, BsChevronRight } from 'react-icons/bs';
 
 import alpineLogo from '../Assets/images/sources-homepage/logo/logo-white.png';
 import alpineLogoBlue from '../Assets/images/sources-homepage/logo/logo.png';
@@ -15,7 +15,7 @@ const Header = () => {
     <header className="bg-slate-900">
       <nav className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8" aria-label="Global">
         <div className="flex lg:flex-1">
-          <a href="#" className="-m-1.5 p-1.5">
+          <a href="/src/App.jsx" className="-m-1.5 p-1.5">
             <span className="sr-only">Your Company</span>
             <img className="h-100 w-50" src={alpineLogo} alt="" />
           </a>
@@ -29,13 +29,13 @@ const Header = () => {
           </button>
         </div>
         <div className={`lg:flex lg:gap-x-12 ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <a href="#" className="text-sm font-bold leading-6 text-slate-200">Modèle</a>
-          <a href="#" className="text-sm font-bold leading-6 text-slate-200">Technique</a>
-          <a href="#" className="text-sm font-bold leading-6 text-slate-200">Configuration</a>
-          <a href="#" className="text-sm font-bold leading-6 text-slate-200">Boutique</a>
+          <a href="#model" className="text-sm font-bold leading-6 text-slate-200">Modèle</a>
+          <a href="#technical" className="text-sm font-bold leading-6 text-slate-200">Caractéristique</a>
+          <a href="#configurator" className="text-sm font-bold leading-6 text-slate-200">Configuration</a>
+          <a href="#boutique" className="text-sm font-bold leading-6 text-slate-200">Boutique</a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
-          <a href="#" className="text-sm font-semibold leading-6 text-slate-200">Log in <span aria-hidden="true">&rarr;</span></a>
+          <a href="Cart" className="text-sm font-semibold leading-6 text-slate-200"> <BiCart size={26}/></a>
         </div>
       </nav>
       {/* Mobile menu */}
@@ -44,7 +44,7 @@ const Header = () => {
           <div className="fixed inset-0 z-10"></div>
           <div className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">
             <div className="flex items-center justify-between">
-              <a href="#" className="-m-1.5 p-1.5">
+              <a href="/src/App.jsx" className="-m-1.5 p-1.5">
                 <span className="sr-only">Your Company</span>
                 <img className="w-50" src={alpineLogoBlue} alt="alpine logo"/>
               </a>
@@ -58,13 +58,10 @@ const Header = () => {
             <div className="mt-6 flow-root">
               <div className="-my-6 divide-y divide-gray-500/10">
                 <div className="space-y-2 py-6">
-                  <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Modèle</a>
-                  <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Configuration</a>
-                  <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Galerie</a>
-                  <a href="#" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Boutique</a>
-                </div>
-                <div className="py-6">
-                  <a href="#" className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Log in</a>
+                  <a href="#model" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Modèle</a>
+                  <a href="#technical" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Caractéristique</a>
+                  <a href="#configurator" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Configuration</a>
+                  <a href="#boutique" className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50">Boutique</a>
                 </div>
               </div>
             </div>

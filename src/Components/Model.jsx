@@ -5,7 +5,7 @@ import a110ModelCollage from '../Assets/images/sources-homepage/A110/Presentatio
 
 const Model = () => {
   return (
-    <section className="py-12">
+    <section id="model" className="py-12">
       <div className="py-8 container flex items-center text-right gap-5">
         <div className="w-50 sm:w-100">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus fugiat eaque illo libero tenetur iusto eveniet fugit omnis exercitationem placeat quis consequatur expedita, asperiores sint porro debitis incidunt qui dignissimos. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam numquam pariatur nulla ut mollitia doloremque a sint unde et adipisci. Lorem ipsum dolor sit amet consectetur adipisicing elit.
