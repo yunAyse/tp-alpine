@@ -1,5 +1,6 @@
 import { BiRightArrowAlt } from "react-icons/bi"; 
 import React from 'react'
+import { Link } from "react-router-dom";
 
 import carLegend from '../../Assets/images/sources-homepage/versions/ALPINE-LEGENDE-1.png';
 import carPure from '../../Assets/images/sources-homepage/versions/ALPINE-PURE-1.png';
@@ -26,8 +27,8 @@ const Configurator = () => {
             </div>
 
             <div className='flex justify-center items-center gap-2 text-sky-600 '>
-                <a href="../Configurator/Configure.jsx">Configurer</a>
-                <a href="../Configurator/Configure.jsx"> <BiRightArrowAlt /> </a>
+            <Link to='/configurator'>Configurer</Link>
+                <Link to='/configurator'> <BiRightArrowAlt /> </Link>
             </div>
         </div>
 
@@ -43,8 +44,8 @@ const Configurator = () => {
             </div>
 
             <div className='flex justify-center items-center gap-2 text-sky-600 '>
-                <a href="../Configurator/Configure.jsx">Configurer</a>
-                <a href="../Configurator/Configure.jsx"> <BiRightArrowAlt /> </a>
+                <Link to='/configurator'>Configurer</Link>
+                <Link to='/configurator'> <BiRightArrowAlt /> </Link>
             </div>
         </div>
     </div>

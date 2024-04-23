@@ -29,9 +29,9 @@ const Header = () => {
           </button>
         </div>
         <div className={`lg:flex lg:gap-x-12 ${isMenuOpen ? 'block' : 'hidden'}`}>
-          <a href="#model" className="text-sm font-bold leading-6 text-slate-200">Modèle</a>
-          <a href="#technical" className="text-sm font-bold leading-6 text-slate-200">Caractéristique</a>
-          <a href="#configurator" className="text-sm font-bold leading-6 text-slate-200">Configuration</a>
+          <a href="#model" className="text-md font-bold leading-6 text-slate-200">Modèle</a>
+          <a href="#technical" className="text-md font-bold leading-6 text-slate-200">Caractéristique</a>
+          <a href="#configurator" className="text-md font-bold leading-6 text-slate-200">Configuration</a>
         </div>
         <div className="hidden lg:flex lg:flex-1 lg:justify-end">
           <a href="Cart" className="text-sm font-semibold leading-6 text-slate-200"> <BiCart size={26}/></a>

@@ -45,7 +45,7 @@ const Technical = () => {
       </article>
 
       <article className="bg-[#e1e1e1]">
-        <div className="container py-5 px-12 flex flex-col gap-20">
+        <div className="container py-5 px-12 flex flex-col items-center gap-20">
           <div className="flex gap-12">
             <div>
               <img
@@ -117,7 +117,7 @@ const Technical = () => {
       </article>
 
       <article className="bg-[#e1e1e1]">
-        <div className="container py-20 px-12 flex gap-20 items-center">
+        <div className="container py-20 px-12 flex justify-center gap-20 items-center">
           <div className="h-[300px] border-r-4 border-slate-400 flex items-center px-8">
             <h2 className="font-semibold text-5xl">Technologie</h2>
           </div>

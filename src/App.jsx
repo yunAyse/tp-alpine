@@ -1,35 +1,23 @@
 import "./App.css";
-import './index.css';
+import "./index.css";
 
-import Header from "./Components/Homepage/Header";
-import Hero from "./Components/Homepage/Hero";
-import Model from "./Components/Homepage/Model";
-import About from "./Components/Homepage/About";
-import Technical from "./Components/Homepage/Technical";
-import VersionToChoose from "./Components/Homepage/VersionToChoose";
-import Footer from "./Components/Homepage/Footer";
+import { Routes, Route } from 'react-router-dom';
+
+import Home from "./Components/Homepage/Home";
+import Configurator from "./Components/Configurator/Configurator";
 
 const App = () => {
   return (
     <>
-      <div className="App scroll-smooth">
-        <Header />
-          
-        <Hero/>
-
-        <About/>
-
-        <Model/>
-
-        <Technical/>
-
-        <VersionToChoose />
-
-        <Footer/>
-      </div>
+        <main className="App scroll-smooth">
+            <Routes>
+              <Route path="/" element={<Home />} exact  />
+              <Route path="/configurator" element={<Configurator/>} />
+            </Routes>
+      
+        </main>
     </>
   );
-}
-
+};
 
 export default App;
